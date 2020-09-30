@@ -1,6 +1,6 @@
-import axios from 'axios';
-import https from 'https';
-import querystring from 'querystring';
+const axios = require('axios');
+const https = require('https');
+const querystring = require('querystring');
 
 /*
 ===============================================================================
