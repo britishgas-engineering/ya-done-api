@@ -1,6 +1,5 @@
 const axios = require('axios');
 const https = require('https');
-const querystring = require('querystring');
 
 /*
 ===============================================================================
@@ -67,7 +66,7 @@ async function POST(header, endPoint, requestBody) {
         rejectUnauthorized: false
       })
     })
-    .post(endPoint, querystring.stringify(requestBody))
+    .post(endPoint, requestBody)
     .then((response) => onSuccess(response))
     .catch((error) => onError(error));
 }
@@ -90,7 +89,7 @@ async function PUT(header, endPoint, requestBody) {
         rejectUnauthorized: false
       })
     })
-    .put(endPoint, querystring.stringify(requestBody))
+    .put(endPoint, requestBody)
     .then((response) => onSuccess(response))
     .catch((error) => onError(error));
 }
@@ -113,7 +112,7 @@ async function PATCH(header, endPoint, requestBody) {
         rejectUnauthorized: false
       })
     })
-    .patch(endPoint, querystring.stringify(requestBody))
+    .patch(endPoint, requestBody)
     .then((response) => onSuccess(response))
     .catch((error) => onError(error));
 }
@@ -163,7 +162,7 @@ async function HEAD(header, endPoint, requestBody) {
       .catch((error) => onError(error));
   } else {
     return axiosFunc
-      .patch(endPoint, querystring.stringify(requestBody))
+      .patch(endPoint, requestBody)
       .then((response) => onSuccess(response))
       .catch((error) => onError(error));
   }
@@ -196,7 +195,7 @@ async function OPTIONS(header, endPoint, requestBody) {
       .catch((error) => onError(error));
   } else {
     return axiosFunc
-      .patch(endPoint, querystring.stringify(requestBody))
+      .patch(endPoint, requestBody)
       .then((response) => onSuccess(response))
       .catch((error) => onError(error));
   }
