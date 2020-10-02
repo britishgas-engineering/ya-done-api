@@ -1,7 +1,7 @@
 {
-  "name": "structureone",
+  "name": "structuretwo",
   "version": "1.0.0",
-  "description": "Simple Structure 1",
+  "description": "Simple Structure 2",
   "main": "index.js",
   "scripts": {
     "test": "mocha index.js"
