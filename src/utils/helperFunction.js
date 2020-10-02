@@ -201,6 +201,20 @@ async function OPTIONS(header, endPoint, requestBody) {
   }
 }
 
+/*
+===============================================================================
+If we have to wait for sometime for the status change of any status, we can
+use this wait function
+===============================================================================
+*/
+async function wait(ms) {
+  const start = new Date().getTime();
+  let end = start;
+  while (end < start + ms) {
+    end = new Date().getTime();
+  }
+}
+
 //Exporting all the functions which will be available for all other repo
 module.exports = {
   GET: GET,
@@ -209,5 +223,6 @@ module.exports = {
   PATCH: PATCH,
   DELETE: DELETE,
   HEAD: HEAD,
-  OPTIONS: OPTIONS
+  OPTIONS: OPTIONS,
+  wait: wait
 };
