@@ -14,7 +14,7 @@ The aim of this Package is to help QA teams to automate API's using Javascript. 
 
 ###### There are two structures mentioned below. Sample Projects for both the structures are available for download in GITHUB. (To Skip the Reading 😉)
 
-#### 1. Decide Directry Structure: Sample Folder Structure
+#### 1. Decide Your Directry Structure: Sample Folder Structure 1
 ```
 features
     ├─sampleFeature.js
@@ -60,7 +60,7 @@ export default function () {
   }
 ```
 
-#### 4. Extract the code to pass tp Ya-done-api for execution
+#### 4. Extract the code to pass it `Ya-done-api` framework for execution
 ./steps/index.js
 ```js
 import {yaddaLibrary} from 'ya-done-api';
@@ -93,12 +93,12 @@ npm  i
 npm  test
 ```
 
-**If you want to split the Given when then in steps, you can follow the below structure:**
+**If you want to split the Given when then in steps, you can follow the below structure: Structure 2**
 ```
 features
     ├─sampleFeature.js
 steps
-    ├─givem
+    ├─given
     |    ├─lib
     |    |   ├─givenSteps.js
     |    ├─index.js
