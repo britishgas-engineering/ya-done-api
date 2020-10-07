@@ -1,0 +1,24 @@
+{
+  "name": "structuretwo",
+  "version": "1.0.0",
+  "description": "Simple Structure 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.js"
+  },
+  "author": "Biplav",
+  "license": "ISC",
+  "dependencies": {
+    "ya-done-api": "^1.0.0",
+    "mocha": "^8.1.3",
+    "mochawesome": "^4.1.0",
+    "expect": "26.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.10.1",
+    "@babel/core": "7.10.2",
+    "@babel/polyfill": "7.10.1",
+    "@babel/preset-env": "7.10.2",
+    "@babel/register": "7.10.1"
+  }
+}
