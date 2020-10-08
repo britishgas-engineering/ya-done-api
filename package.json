@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/britishgas-engineering/ya-done-api/issues"
   },
-  "homepage": "https://github.com/britishgas-engineering/ya-done-api/blob/master/README.md",
+  "homepage": "https://github.com/britishgas-engineering/ya-done-api#readme",
   "dependencies": {
     "should": "13.2.3",
     "expect": "26.4.2",
