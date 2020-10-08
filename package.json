@@ -1,7 +1,7 @@
 {
   "name": "ya-done-api",
-  "version": "1.0.0",
-  "description": "A BDD based framework to automatte APIs",
+  "version": "1.0.1",
+  "description": "A BDD based framework to automate APIs",
   "main": "src/index.js",
   "scripts": {
     "precommit": "lint-staged",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ConnectedHomes/ya-done-api.git"
+    "url": "git+https://github.com/britishgas-engineering/ya-done-api.git"
   },
   "author": "Biplav Ghosal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ConnectedHomes/ya-done-api/issues"
+    "url": "https://github.com/britishgas-engineering/ya-done-api/issues"
   },
-  "homepage": "https://github.com/ConnectedHomes/ya-done-api#readme",
+  "homepage": "https://github.com/britishgas-engineering/ya-done-api/blob/master/README.md",
   "dependencies": {
     "should": "13.2.3",
     "expect": "26.4.2",
